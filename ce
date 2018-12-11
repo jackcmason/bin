@@ -1,0 +1,3 @@
+##let caps be another escape
+setxkbmap -option caps:escape
+

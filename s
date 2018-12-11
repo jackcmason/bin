@@ -1,0 +1,2 @@
+##quick shutdown
+shutdown now

@@ -1,0 +1,2 @@
+##copy file permissions to another file (desired permissions first)
+chmod --reference=$1 $2

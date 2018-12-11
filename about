@@ -1,0 +1,3 @@
+##lists info about other ~/bin files with a double hash inline comment
+grep -e "##[^\"\[]" ~/bin/* | column -t -s "##"
+

@@ -1,0 +1,2 @@
+##get external ip address
+curl ifconfig.me
