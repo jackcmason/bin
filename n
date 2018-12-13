@@ -1,3 +1,2 @@
-#!/bin/sh
 ##set 1000K color temperature
 redshift -O 1000
