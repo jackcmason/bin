@@ -1,1 +1,2 @@
+##converts files in the current directory to .png (all files should be images)
 mogrify -format png *.*
