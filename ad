@@ -1,0 +1,3 @@
+##executes android studio from default installation location
+cd /opt/android-studio/bin/
+./studio.sh
