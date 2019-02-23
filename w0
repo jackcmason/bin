@@ -1,2 +1,2 @@
 ## writes 0's to a drive
-dd if/dev/zero of=/dev/{$1} bs=4k status=progress
+sudo dd if/dev/zero of=/dev/$1 bs=4k status=progress

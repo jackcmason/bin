@@ -1,2 +1,2 @@
 ## writes random bits to drive
-dd if=/dev/urandom of=/dev/{$1} bs=4k status=progress
+sudo dd if=/dev/urandom of=/dev/$1 bs=4k status=progress
