@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+##generates random numbers
+
+import sys
+import random
+
+if len(sys.argv) != 3:
+	print("Usage: rn [maxvalue] [number instances]")
+	sys.exit()
+
+instances = int(sys.argv[2])
+maxvalue = int(sys.argv[1])
+
+if maxvalue == 1:
+    for n in range(instances):
+        print(random.random())
+else:
+    for n in range(instances):
+        print(random.randint(0, maxvalue))
