@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+##to practice identifying matrices
+import random
+
+letters = ['i', 'j', 'k', 'm', 'n', 'p']
+numbers = [1, 2, 3, 4, 5, 6]
+
+while(True):
+    r1 = random.random()
+    r2 = random.random()
+    if(r1 > 0.5):
+        args = letters
+    else:
+        args = numbers
+    i1 = random.randint(0, 5)
+    i2 = random.randint(0, 5)
+    while(i1 == i2):
+        i2 = random.randint(0,5)
+    if(r2 > 0.5):
+        print("{}x{}".format(args[i1], args[i2]), end='')
+    else:
+        print("{} rows, {} columns".format(args[i1], args[i2]), end='')
+    input()
+    if(r2 > 0.5):
+        print("{} rows, {} columns".format(args[i1], args[i2]))
+    else:
+        print("{}x{}".format(args[i1], args[i2]))
+    print()
+
+
